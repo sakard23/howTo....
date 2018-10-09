@@ -1,0 +1,11 @@
+FIXED THE LAST COMMIT MESSAGE:
+    - When you commit with wrong message.
+    Example: you did git commit -m "error fxied"
+              and realized there was typo
+         Solution:
+              undo with:
+                        git commit --amend -m "error fixed"
+    git commit --ammend will update and replace the most recent commit with a new commit,
+          that combines any staged changes with the contents of the previous commit.
+
+
